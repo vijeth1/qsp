@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[BeforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[BeforeTest]]>
+    </line>
+    <line>
+      <![CDATA[Beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Create UN:userAWith PW:A]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Create UN:userBWith PW:B]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[Beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[testB]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[testB]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[testA]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[AfterTest]]>
+    </line>
+    <line>
+      <![CDATA[AfterSuite]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101" started-at="2017-06-10T03:25:36Z" finished-at="2017-06-10T03:25:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="101" started-at="2017-06-10T03:25:36Z" finished-at="2017-06-10T03:25:36Z">
+      <class name="ABC.DemoB">
+        <test-method status="PASS" signature="m5()[pri:0, instance:ABC.DemoB@100fc185]" name="m5" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:ABC.DemoB@100fc185]" name="m8" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="testC(java.lang.String, java.lang.String)[pri:0, instance:ABC.DemoB@100fc185]" name="testC" duration-ms="14" started-at="2017-06-10T08:55:36Z" data-provider="getdata" finished-at="2017-06-10T08:55:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create UN:userAWith PW:A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:ABC.DemoB@100fc185]" name="m7" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:ABC.DemoB@100fc185]" name="m8" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="testC(java.lang.String, java.lang.String)[pri:0, instance:ABC.DemoB@100fc185]" name="testC" duration-ms="3" started-at="2017-06-10T08:55:36Z" data-provider="getdata" finished-at="2017-06-10T08:55:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create UN:userBWith PW:B]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:ABC.DemoB@100fc185]" name="m7" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m6()[pri:0, instance:ABC.DemoB@100fc185]" name="m6" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+      </class> <!-- ABC.DemoB -->
+      <class name="ABC.DemoA">
+        <test-method status="PASS" signature="m1()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m1" is-config="true" duration-ms="14" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m3" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m5()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m5" is-config="true" duration-ms="0" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m8" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:ABC.DemoA@3a82f6ef]" name="testB" duration-ms="6" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m7" is-config="true" duration-ms="5" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m8" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:ABC.DemoA@3a82f6ef]" name="testB" duration-ms="5" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m7" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m8" is-config="true" duration-ms="3" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="testA()[pri:2, instance:ABC.DemoA@3a82f6ef]" name="testA" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m7" is-config="true" duration-ms="2" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m4" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="m6()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m6" is-config="true" duration-ms="0" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:ABC.DemoA@3a82f6ef]" name="m2" is-config="true" duration-ms="1" started-at="2017-06-10T08:55:36Z" finished-at="2017-06-10T08:55:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- ABC.DemoA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
